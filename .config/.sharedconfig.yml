@@ -1,3 +1,4 @@
 
 overrideScripts:
-  "prepare:vscode": "exit 0"
+  'prepare:vscode': 'exit 0'
+  'release': 'npm-run-all prepare lint test build generate'
