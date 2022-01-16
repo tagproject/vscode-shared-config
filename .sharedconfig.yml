@@ -27,6 +27,7 @@ scripts:
   'lint': 'npm-run-all lint:*'
   'lint:spell': 'cspell -c .vscode/cspell.json --no-summary "README.md" "src/**/*.ts"'
 
+
 dependencies:
   - "prettier"
   - 'cspell'
