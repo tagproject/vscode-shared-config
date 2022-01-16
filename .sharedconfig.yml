@@ -1,0 +1,36 @@
+sharedDir: ".config"
+outputDir: "lib"
+
+mergeRules:
+  ".gitignore": true
+  ".npmignore": true
+
+ignorePatterns:
+  ".gitignore": [
+    "/.editorconfig",
+    "/.prettierignore",
+    "/.prettierrc",
+    "/.vscode/",
+  ]
+  ".npmignore": [
+    ".editorconfig",
+    ".prettierignore",
+    ".prettierrc",
+    ".vscode",
+  ]
+
+scripts:
+  "prepare:vscode": "node --experimental-specifier-resolution=node node_modules/.bin/vscode-shared-config"
+
+dependencies:
+  - "changelog-guru"
+  - "figma-portal"
+  - "husky": "7.x"
+  - "npm-run-all"
+  - "prettier"
+
+package:
+  exports: "./lib/index.js"
+  manager: "npm"
+  type: "module"
+  types: "./lib/index.d.ts"
