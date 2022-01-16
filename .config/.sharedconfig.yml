@@ -1,0 +1,3 @@
+
+overrideScripts:
+  "prepare:vscode": "exit 0"

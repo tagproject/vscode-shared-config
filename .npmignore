@@ -1,0 +1,17 @@
+.config
+.editorconfig
+.env
+.figma.yml
+.gitattributes
+.github
+.husky
+.prettierignore
+.prettierrc
+.sharedconfig.yml
+.vscode
+CODE_OF_CONDUCT.md
+codecov.yml
+docs/
+example/
+media/
+node_modules/
