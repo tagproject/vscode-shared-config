@@ -27,3 +27,4 @@ scripts:
 
 dependencies:
   - "prettier"
+  - 'cspell'
