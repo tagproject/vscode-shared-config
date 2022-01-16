@@ -1,6 +1,17 @@
+# Important Changes
+
+## Dependencies
+
+<details>
+<summary>Dev Dependencies</summary>
+
+- Added **[cspell](https://www.npmjs.com/package/cspell)** with `^5.15.2`
+
+</details>
+
 # :bug: Bug Fixes
 
-- Fix shared config [`358c3a8`](https://github.com/tagproject/vscode-shared-config/commit/358c3a882bce4ebc9f0f6c4919402723561dd5c0)
+- Add cspell scripts [`aaf8d62`](https://github.com/tagproject/vscode-shared-config/commit/aaf8d62c9c702fca0017da7bbc0634429a7d1bac)
 
 ---
 
