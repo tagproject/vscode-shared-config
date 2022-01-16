@@ -1,5 +1,5 @@
-sharedDir: ".config"
-outputDir: "lib"
+sharedDir: '.config'
+outputDir: 'lib'
 
 mergeRules:
   '.vscode/cspell.json': ['words']
@@ -9,25 +9,15 @@ mergeRules:
   '.prettierignore': true
 
 ignorePatterns:
-  ".gitignore": [
-    "/.editorconfig",
-    "/.prettierignore",
-    "/.prettierrc",
-    "/.vscode/",
-  ]
-  ".npmignore": [
-    ".editorconfig",
-    ".prettierignore",
-    ".prettierrc",
-    ".vscode",
-  ]
+  '.gitignore': ['/.editorconfig', '/.prettierignore', '/.prettierrc', '/.vscode/']
+  '.npmignore': ['.editorconfig', '.prettierignore', '.prettierrc', '.vscode']
 
 scripts:
   'prepare:vscode': 'node --experimental-specifier-resolution=node node_modules/.bin/vscode-shared-config'
   'lint': 'npm-run-all lint:*'
   'lint:spell': 'cspell -c .vscode/cspell.json --no-summary "README.md" "src/**/*.ts"'
 
-
 dependencies:
-  - "prettier"
+  - 'prettier'
   - 'cspell'
+  - 'npm-run-all'
