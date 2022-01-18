@@ -43,10 +43,11 @@
     "release": "npm-run-all prepare lint build generate"
   },
   "dependencies": {
-    "standard-shared-config": "^4.0.9"
+    "standard-shared-config": "^4.0.11"
   },
   "devDependencies": {
-    "@tagproject/base-shared-config": "^2.0.0",
+    "@tagproject/base-shared-config": "^2.1.0",
+    "@tagproject/docs-shared-config": "^1.0.0",
     "changelog-guru": "^4.0.2",
     "cspell": "^5.15.2",
     "figma-portal": "^0.10.2",
