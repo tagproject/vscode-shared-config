@@ -14,7 +14,7 @@
     "standard",
     "vscode"
   ],
-  "bugs": "https://github.com/keindev/vscode-shared-config/issues",
+  "bugs": "https://github.com/tagproject/vscode-shared-config/issues",
   "types": "./lib/index.d.ts",
   "type": "module",
   "exports": "./lib/index.js",
