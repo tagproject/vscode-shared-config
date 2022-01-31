@@ -16,7 +16,7 @@ npm install @tagproject/vscode-shared-config --save-dev
 
 ## Usage
 
-- Add `"prepare:config": "vscode-shared-config"` to `scripts` property in your `package.json`
+- Add `"prepare:vscode": "vscode-shared-config"` to `scripts` property in your `package.json`
 - Rename your `prepare` scripts to `prepare:[NAME]`
 - Add `"prepare": "npm-run-all prepare:*"`
 - Run `npm run prepare`
