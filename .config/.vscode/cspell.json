@@ -2,19 +2,20 @@
   "version": "0.2",
   "language": "en",
   "words": [
-    "codecov",
-    "dependabot",
-    "keindev",
-    "npmignore",
-    "opensource",
-    "sharedconfig",
-    "tasktree",
-    "tagproject",
-    "prettierignore",
     "Daniil",
     "Ryazanov",
+    "codecov",
+    "dependabot",
+    "ghinfo",
+    "keindev",
     "lcov",
-    "ghinfo"
+    "npmignore",
+    "opensource",
+    "prettierignore",
+    "sharedconfig",
+    "sophty",
+    "tagproject",
+    "tasktree"
   ],
   "ignorePaths": ["node_modules", "coverage", "lib", "build"]
 }
