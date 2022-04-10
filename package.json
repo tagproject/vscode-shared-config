@@ -45,7 +45,7 @@
     "standard-shared-config": "^4.0.14"
   },
   "devDependencies": {
-    "@tagproject/base-shared-config": "^2.2.2",
+    "@tagproject/base-shared-config": "^2.2.3",
     "@tagproject/docs-shared-config": "^1.0.4",
     "changelog-guru": "^4.0.5",
     "cspell": "^5.19.7",
