@@ -6,17 +6,19 @@
     "Ryazanov",
     "codecov",
     "dependabot",
+    "filesize",
     "ghinfo",
     "keindev",
     "lcov",
+    "nodenext",
     "npmignore",
     "opensource",
     "prettierignore",
+    "rollup",
     "sharedconfig",
     "sophty",
     "tagproject",
-    "tasktree",
-    "nodenext"
+    "tasktree"
   ],
   "ignorePaths": ["node_modules", "coverage", "lib", "build"]
 }
