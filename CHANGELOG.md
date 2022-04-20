@@ -1,6 +1,6 @@
-# :bug: Bug Fixes
+# BREAKING CHANGES
 
-- Fix cspell words [`7cf0025`](https://github.com/tagproject/vscode-shared-config/commit/7cf00252dbb7e8cd214241547ac865d4c49a73b2)
+- Add `importModuleSpecifierEnding` to vscode settings [`f4ec5ae`](https://github.com/tagproject/vscode-shared-config/commit/f4ec5ae177ded5f4528172e564bbc1a99a01eecc)
 
 ---
 
