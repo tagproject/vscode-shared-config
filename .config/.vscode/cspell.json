@@ -18,7 +18,8 @@
     "sharedconfig",
     "sophty",
     "tagproject",
-    "tasktree"
+    "tasktree",
+    "jsdom"
   ],
   "ignorePaths": ["node_modules", "coverage", "lib", "build"]
 }
