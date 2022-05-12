@@ -45,12 +45,12 @@
     "standard-shared-config": "^4.0.15"
   },
   "devDependencies": {
-    "@tagproject/base-shared-config": "^2.2.3",
+    "@tagproject/base-shared-config": "^3.0.0",
     "@tagproject/docs-shared-config": "^1.0.4",
     "changelog-guru": "^4.0.6",
     "cspell": "^5.20.0",
     "figma-portal": "^1.0.2",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.6.2"
   }
