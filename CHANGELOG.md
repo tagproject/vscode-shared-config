@@ -3,24 +3,17 @@
 ## Dependencies
 
 <details>
-<summary>Dependencies</summary>
-
-- Changed **[standard-shared-config](https://www.npmjs.com/package/standard-shared-config)** from `^4.0.14` to `^4.0.15`
-
-</details>
-
-<details>
 <summary>Dev Dependencies</summary>
 
-- Changed **[changelog-guru](https://www.npmjs.com/package/changelog-guru)** from `^4.0.5` to `^4.0.6`
-- Changed **[cspell](https://www.npmjs.com/package/cspell)** from `^5.19.7` to `^5.20.0`
-- Changed **[figma-portal](https://www.npmjs.com/package/figma-portal)** from `^1.0.1` to `^1.0.2`
+- Bumped **[@tagproject/base-shared-config](https://www.npmjs.com/package/@tagproject/base-shared-config)** from `^2.2.3` to `^3.0.0`
+- Bumped **[husky](https://www.npmjs.com/package/husky)** from `^7.0.4` to `^8.0.1`
 
 </details>
 
-# :memo: Internal changes
+# :bug: Bug Fixes
 
-- Add jsdom to cspell excludes [`5796824`](https://github.com/tagproject/vscode-shared-config/commit/5796824cae852eeb668eb60cf26b4402fa40dc18)
+- Add `removeUnusedImports` to vscode settigs merge rules [`e69cf9b`](https://github.com/tagproject/vscode-shared-config/commit/e69cf9b4ac846d1e50731f35f8092fe001b78819)
+- Add JS and TS `importModuleSpecifierEnding` [`4d931c8`](https://github.com/tagproject/vscode-shared-config/commit/4d931c8988dafc04bae21eb263845bb85cb93f3d)
 
 ---
 
