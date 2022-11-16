@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/tagproject/vscode-shared-config/media/banner.svg" alt="Package logo"></p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/tagproject/art/packages/vscode-shared-config/banner.svg" alt="Package logo"></p>
 
 <p align="center">
     <a href="https://github.com/tagproject/vscode-shared-config/actions"><img src="https://github.com/tagproject/vscode-shared-config/actions/workflows/build.yml/badge.svg" alt="Build Status"></a>
@@ -22,3 +22,34 @@ npm install @tagproject/vscode-shared-config --save-dev
 - Run `npm run prepare`
 
 > use `node --experimental-specifier-resolution=node node_modules/.bin/vscode-shared-config` while [ESM](https://nodejs.org/api/esm.html) is in `Experimental`
+
+## Configs
+
+### extract configs:
+
+- `.editorconfig`
+- `.prettierrc`
+
+### merge files:
+
+- `.gitignore`
+- `.npmignore`
+- `.prettierignore`
+- `.vscode/cspell.json`
+- `.vscode/launch.json`
+- `.vscode/settings.json`
+
+### append to `package.json`:
+
+#### scripts:
+
+- `prepare` - run all `prepare:*`
+- `prepare:vscode` - extract and merge vscode configs
+- `lint` - run lintings
+- `lint:spell` - run spell check
+
+### check and install dependencies:
+
+- [prettier](https://www.npmjs.com/package/prettier): `latest`
+- [cspell](https://www.npmjs.com/package/cspell): `latest`
+- [npm-run-all](https://www.npmjs.com/package/npm-run-all): `latest`
