@@ -12,7 +12,7 @@
 
 # :bug: Bug Fixes
 
-- Add `removeUnusedImports` to vscode settigs merge rules [`e69cf9b`](https://github.com/tagproject/vscode-shared-config/commit/e69cf9b4ac846d1e50731f35f8092fe001b78819)
+- Add `removeUnusedImports` to vscode settings merge rules [`e69cf9b`](https://github.com/tagproject/vscode-shared-config/commit/e69cf9b4ac846d1e50731f35f8092fe001b78819)
 - Add JS and TS `importModuleSpecifierEnding` [`4d931c8`](https://github.com/tagproject/vscode-shared-config/commit/4d931c8988dafc04bae21eb263845bb85cb93f3d)
 
 ---

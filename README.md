@@ -45,7 +45,7 @@ npm install @tagproject/vscode-shared-config --save-dev
 
 - `prepare` - run all `prepare:*`
 - `prepare:vscode` - extract and merge vscode configs
-- `lint` - run lintings
+- `lint` - run linting
 - `lint:spell` - run spell check
 
 ### check and install dependencies:
