@@ -37,17 +37,17 @@
     "prepare": "npm-run-all prepare:*",
     "prepare:config": "node --experimental-specifier-resolution=node node_modules/.bin/base-shared-config",
     "prepare:husky": "husky install",
-    "prepare:vscode": "npm-run-all build && node --experimental-specifier-resolution=node bin/vscode-shared-config",
+    "prepare:vscode": "npm-run-all build && node bin/vscode-shared-config",
     "release": "npm-run-all prepare lint build generate"
   },
   "dependencies": {
-    "standard-shared-config": "^4.0.15"
+    "standard-shared-config": "^4.0.17"
   },
   "devDependencies": {
     "@tagproject/base-shared-config": "^3.3.2",
-    "@tagproject/docs-shared-config": "^1.1.0",
+    "@tagproject/docs-shared-config": "^1.1.1",
     "changelog-guru": "^4.0.6",
-    "cspell": "^6.14.2",
+    "cspell": "^6.14.3",
     "husky": "^8.0.2",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1"

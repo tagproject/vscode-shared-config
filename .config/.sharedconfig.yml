@@ -1,4 +1,4 @@
 
 overrideScripts:
-  'prepare:vscode': 'npm-run-all build && node --experimental-specifier-resolution=node bin/vscode-shared-config'
+  'prepare:vscode': 'npm-run-all build && node bin/vscode-shared-config'
   'release': 'npm-run-all prepare lint build generate'

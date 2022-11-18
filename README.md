@@ -21,8 +21,6 @@ npm install @tagproject/vscode-shared-config --save-dev
 - Add `"prepare": "npm-run-all prepare:*"`
 - Run `npm run prepare`
 
-> use `node --experimental-specifier-resolution=node node_modules/.bin/vscode-shared-config` while [ESM](https://nodejs.org/api/esm.html) is in `Experimental`
-
 ## Configs
 
 ### extract configs:
