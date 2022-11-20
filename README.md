@@ -46,7 +46,7 @@ npm install @tagproject/vscode-shared-config --save-dev
 - `lint` - run linting
 - `lint:spell` - run spell check
 
-### check and install dependencies:
+#### check and install dependencies:
 
 - [prettier](https://www.npmjs.com/package/prettier): `latest`
 - [cspell](https://www.npmjs.com/package/cspell): `latest`
