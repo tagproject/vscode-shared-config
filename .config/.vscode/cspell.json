@@ -19,7 +19,8 @@
     "sophty",
     "tagproject",
     "tasktree",
-    "jsdom"
+    "jsdom",
+    "tada"
   ],
   "ignorePaths": ["node_modules", "coverage", "lib", "build"]
 }
