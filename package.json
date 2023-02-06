@@ -1,6 +1,6 @@
 {
   "name": "@tagproject/vscode-shared-config",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Standard shared config for tagproject packages with Node.js and TypeScript",
   "license": "MIT",
   "homepage": "https://github.com/tagproject/vscode-shared-config#readme",
