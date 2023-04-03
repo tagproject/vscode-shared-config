@@ -4,7 +4,11 @@ outputDir: 'lib'
 mergeRules:
   '.vscode/cspell.json': ['words', 'ignorePaths']
   '.vscode/launch.json': ['configurations']
-  '.vscode/settings.json': ['javascript.preferences.importModuleSpecifierEnding', 'typescript.preferences.importModuleSpecifierEnding']
+  '.vscode/settings.json': [
+    'javascript.preferences.importModuleSpecifierEnding',
+    'typescript.preferences.importModuleSpecifierEnding',
+    "typescript.preferences.importModuleSpecifier"
+  ]
   '.gitignore': true
   '.npmignore': true
   '.prettierignore': true
