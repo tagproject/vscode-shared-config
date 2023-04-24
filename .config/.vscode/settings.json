@@ -8,39 +8,45 @@
   "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "cSpell.language": "en,ru",
   "typescript.tsdk": "./node_modules/typescript/lib",
-  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "shortest",
   "importSorter.generalConfiguration.sortOnBeforeSave": true,
   "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 120,
   "importSorter.importStringConfiguration.trailingComma": "multiLine",
   "importSorter.sortConfiguration.customOrderingRules.rules": [
     {
       "type": "importMember",
-      "regex": "^$",
-      "orderLevel": 40,
-      "disableSort": true
-    },
-    {
-      "type": "importMember",
       "regex": "^\\*",
-      "orderLevel": 20,
+      "orderLevel": 10,
       "disableSort": true
     },
     {
-      "regex": "^[^.@]",
-      "orderLevel": 20
+      "regex": "^(?!~)[^.@]",
+      "orderLevel": 10
     },
     {
       "regex": "^[@]",
       "orderLevel": 20
     },
     {
-      "regex": "^[.]",
+      "regex": "^[\\~]",
+      "orderLevel": 20
+    },
+    {
+      "regex": "^[.](?!/style)",
       "orderLevel": 30
+    },
+    {
+      "regex": "^[.]/style",
+      "orderLevel": 40
+    },
+    {
+      "type": "importMember",
+      "regex": "^$",
+      "orderLevel": 40,
+      "disableSort": true
     }
   ],
   "importSorter.sortConfiguration.removeUnusedImports": false,
-  "javascript.preferences.importModuleSpecifierEnding": "js",
-  "typescript.preferences.importModuleSpecifierEnding": "js",
   "yaml.schemas": {
     "https://json.schemastore.org/github-workflow.json": ".github/workflows/*"
   }
