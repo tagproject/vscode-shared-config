@@ -7,7 +7,8 @@ mergeRules:
   '.vscode/settings.json': [
     'javascript.preferences.importModuleSpecifierEnding',
     'typescript.preferences.importModuleSpecifierEnding',
-    "typescript.preferences.importModuleSpecifier"
+    'typescript.preferences.importModuleSpecifier',
+    'material-icon-theme.files.associations'
   ]
   '.gitignore': true
   '.npmignore': true
@@ -18,10 +19,10 @@ ignorePatterns:
   '.npmignore': ['.editorconfig', '.prettierignore', '.prettierrc', '.vscode']
 
 scripts:
-  "prepare": "npm-run-all prepare:*"
-  "prepare:vscode": "vscode-shared-config"
-  "lint": "npm-run-all lint:*"
-  "lint:spell": 'cspell -c .vscode/cspell.json --no-summary "**/*.{js,ts,tsx,md,yml,json}"'
+  'prepare': 'npm-run-all prepare:*'
+  'prepare:vscode': 'vscode-shared-config'
+  'lint': 'npm-run-all lint:*'
+  'lint:spell': 'cspell -c .vscode/cspell.json --no-summary "**/*.{js,ts,tsx,md,yml,json}"'
 
 dependencies:
   - 'prettier'
