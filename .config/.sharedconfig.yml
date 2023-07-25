@@ -1,3 +1,3 @@
 overrideScripts:
-  'prepare:vscode': 'npm-run-all build && node bin/vscode-shared-config'
-  'release': 'npm-run-all prepare lint build generate'
+  'prepare:vscode': 'run-s build && node bin/vscode-shared-config'
+  'release': 'run-s prepare lint build generate'
