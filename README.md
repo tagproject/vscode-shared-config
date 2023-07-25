@@ -18,7 +18,7 @@ npm install @tagproject/vscode-shared-config --save-dev
 
 - Add `"prepare:vscode": "vscode-shared-config"` to `scripts` property in your `package.json`
 - Rename your `prepare` scripts to `prepare:[NAME]`
-- Add `"prepare": "npm-run-all prepare:*"`
+- Add `"prepare": "run-s prepare:*"`
 - Run `npm run prepare`
 
 ## Configs
@@ -48,6 +48,6 @@ npm install @tagproject/vscode-shared-config --save-dev
 
 #### dependencies:
 
-- [prettier](https://www.npmjs.com/package/prettier): `latest`
-- [cspell](https://www.npmjs.com/package/cspell): `latest`
-- [npm-run-all](https://www.npmjs.com/package/npm-run-all): `latest`
+- [prettier](https://www.npmjs.com/package/prettier): `3.x`
+- [cspell](https://www.npmjs.com/package/cspell): `6.x`
+- [npm-run-all](https://www.npmjs.com/package/npm-run-all): `4.x`
