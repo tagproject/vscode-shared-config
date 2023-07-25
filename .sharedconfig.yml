@@ -4,12 +4,13 @@ outputDir: 'lib'
 mergeRules:
   '.vscode/cspell.json': ['words', 'ignorePaths']
   '.vscode/launch.json': ['configurations']
-  '.vscode/settings.json': [
-    'javascript.preferences.importModuleSpecifierEnding',
-    'typescript.preferences.importModuleSpecifierEnding',
-    'typescript.preferences.importModuleSpecifier',
-    'material-icon-theme.files.associations'
-  ]
+  '.vscode/settings.json':
+    [
+      'javascript.preferences.importModuleSpecifierEnding',
+      'typescript.preferences.importModuleSpecifierEnding',
+      'typescript.preferences.importModuleSpecifier',
+      'material-icon-theme.files.associations',
+    ]
   '.gitignore': true
   '.npmignore': true
   '.prettierignore': true
@@ -19,12 +20,7 @@ ignorePatterns:
   '.npmignore': ['.editorconfig', '.prettierignore', '.prettierrc', '.vscode']
 
 scripts:
-  'prepare': 'npm-run-all prepare:*'
+  'prepare': 'run-s prepare:*'
   'prepare:vscode': 'vscode-shared-config'
-  'lint': 'npm-run-all lint:*'
+  'lint': 'run-s lint:*'
   'lint:spell': 'cspell -c .vscode/cspell.json --no-summary "**/*.{js,ts,tsx,md,yml,json}"'
-
-dependencies:
-  - 'prettier'
-  - 'cspell'
-  - 'npm-run-all'
