@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@tagproject/base-shared-config": "^4.0.0",
-    "@tagproject/docs-shared-config": "^2.0.0"
+    "@tagproject/docs-shared-config": "^3.0.0"
   },
   "peerDependencies": {
     "cspell": "6.x",
