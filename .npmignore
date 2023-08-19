@@ -1,9 +1,19 @@
+# !ignorefile-merge block-open @tagproject/base-shared-config
+# ---------------------------------------------------------------
+# This block generated automatically
+# @see https://www.npmjs.com/package/ignorefile-merge
+# ---------------------------------------------------------------
+
 .config
+# .env
 .gitattributes
 .github
 .husky
 .sharedconfig.yml
 codecov.yml
+# node_modules/
+
+# !ignorefile-merge block-close @tagproject/base-shared-config
 
 # !ignorefile-merge block-open @tagproject/docs-shared-config
 # ---------------------------------------------------------------
