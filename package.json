@@ -1,10 +1,13 @@
 {
   "name": "@tagproject/vscode-shared-config",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Standard shared config for tagproject packages with Node.js and TypeScript",
   "license": "MIT",
   "homepage": "https://github.com/tagproject/vscode-shared-config#readme",
-  "author": "Daniil Ryazanov <kein@tagproject.ru>",
+  "author": {
+    "name": "Daniil Ryazanov",
+    "email": "kein@tagproject.ru"
+  },
   "keywords": [
     "config",
     "shared",
@@ -23,7 +26,8 @@
     "url": "git+https://github.com/tagproject/vscode-shared-config.git"
   },
   "engines": {
-    "node": "^14.13.1 || >=16.0.0"
+    "node": ">=15.14.0",
+    "npm": ">=7.7.6"
   },
   "scripts": {
     "build": "standard-shared-config build",
@@ -33,19 +37,20 @@
     "lint:spell": "cspell -c .vscode/cspell.json --no-summary \"**/*.{js,ts,tsx,md,yml,json}\"",
     "prepare": "run-s prepare:*",
     "prepare:config": "base-shared-config",
+    "prepare:docs": "docs-shared-config",
     "prepare:husky": "husky install",
     "prepare:vscode": "run-s build && node bin/vscode-shared-config",
     "release": "run-s prepare lint build generate"
   },
   "dependencies": {
-    "standard-shared-config": "5.0.0-beta.0"
+    "standard-shared-config": "5.1.0"
   },
   "devDependencies": {
-    "@tagproject/base-shared-config": "^4.0.0",
-    "@tagproject/docs-shared-config": "^2.0.0"
+    "@tagproject/base-shared-config": "^4.0.1",
+    "@tagproject/docs-shared-config": "^3.0.1"
   },
   "peerDependencies": {
-    "cspell": "6.x",
+    "cspell": "7.x",
     "npm-run-all": "4.x",
     "prettier": "3.x"
   }
