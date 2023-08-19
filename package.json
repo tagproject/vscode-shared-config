@@ -34,19 +34,20 @@
     "lint:spell": "cspell -c .vscode/cspell.json --no-summary \"**/*.{js,ts,tsx,md,yml,json}\"",
     "prepare": "run-s prepare:*",
     "prepare:config": "base-shared-config",
+    "prepare:docs": "docs-shared-config",
     "prepare:husky": "husky install",
     "prepare:vscode": "run-s build && node bin/vscode-shared-config",
     "release": "run-s prepare lint build generate"
   },
   "dependencies": {
-    "standard-shared-config": "5.0.0-beta.0"
+    "standard-shared-config": "5.1.0"
   },
   "devDependencies": {
-    "@tagproject/base-shared-config": "^4.0.0",
-    "@tagproject/docs-shared-config": "^2.0.0"
+    "@tagproject/base-shared-config": "^4.0.1",
+    "@tagproject/docs-shared-config": "^3.0.1"
   },
   "peerDependencies": {
-    "cspell": "6.x",
+    "cspell": "7.x",
     "npm-run-all": "4.x",
     "prettier": "3.x"
   }
