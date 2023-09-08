@@ -3,15 +3,18 @@
 ## Dependencies
 
 <details>
-<summary>Dev Dependencies</summary>
+<summary>Dependencies</summary>
 
-- Changed **[@tagproject/base-shared-config](https://www.npmjs.com/package/@tagproject/base-shared-config)** from `^4.0.1` to `^4.0.2`
-- Changed **[@tagproject/docs-shared-config](https://www.npmjs.com/package/@tagproject/docs-shared-config)** from `^3.0.1` to `^3.0.2`
+- Changed **[standard-shared-config](https://www.npmjs.com/package/standard-shared-config)** from `5.1.0` to `5.1.1`
 
 </details>
+
+# :bug: Bug Fixes
+
+- Add cspell lang to excludes [`6095ee4`](https://github.com/tagproject/vscode-shared-config/commit/6095ee4462e00c3db2a85584e618b71243f2c14a)
 
 ---
 
 # Contributors
 
-[![@keindev](https://avatars.githubusercontent.com/u/4527292?v=4&s=40)](https://github.com/keindev)
+[![@keindev](https://avatars.githubusercontent.com/u/4527292?v=4&s=40)](https://github.com/keindev) [![@github-actions[bot]](https://avatars.githubusercontent.com/in/15368?v=4&s=40)](https://github.com/github-actions%5Bbot%5D)
