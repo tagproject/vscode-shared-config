@@ -2,7 +2,7 @@ sharedDir: '.config'
 outputDir: 'lib'
 
 mergeRules:
-  '.vscode/cspell.json': ['words', 'ignorePaths']
+  '.vscode/cspell.json': ['words', 'ignorePaths', 'language']
   '.vscode/launch.json': ['configurations']
   '.vscode/settings.json':
     [
