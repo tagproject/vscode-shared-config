@@ -49,5 +49,5 @@ npm install @tagproject/vscode-shared-config --save-dev
 #### dependencies:
 
 - [prettier](https://www.npmjs.com/package/prettier): `3.x`
-- [cspell](https://www.npmjs.com/package/cspell): `6.x`
+- [cspell](https://www.npmjs.com/package/cspell): `8.x`
 - [npm-run-all](https://www.npmjs.com/package/npm-run-all): `4.x`
