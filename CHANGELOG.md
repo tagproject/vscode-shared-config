@@ -5,16 +5,27 @@
 <details>
 <summary>Dependencies</summary>
 
-- Changed **[standard-shared-config](https://www.npmjs.com/package/standard-shared-config)** from `5.1.0` to `5.1.1`
+- Changed **[standard-shared-config](https://www.npmjs.com/package/standard-shared-config)** from `5.1.1` to `5.x`
 
 </details>
 
-# :bug: Bug Fixes
+<details>
+<summary>Dev Dependencies</summary>
 
-- Add cspell lang to excludes [`6095ee4`](https://github.com/tagproject/vscode-shared-config/commit/6095ee4462e00c3db2a85584e618b71243f2c14a)
+- Changed **[@tagproject/base-shared-config](https://www.npmjs.com/package/@tagproject/base-shared-config)** from `^4.0.2` to `4.x`
+- Changed **[@tagproject/docs-shared-config](https://www.npmjs.com/package/@tagproject/docs-shared-config)** from `^3.0.2` to `3.x`
+
+</details>
+
+<details>
+<summary>Peer Dependencies</summary>
+
+- Bumped **[cspell](https://www.npmjs.com/package/cspell)** from `7.x` to `8.x`
+
+</details>
 
 ---
 
 # Contributors
 
-[![@keindev](https://avatars.githubusercontent.com/u/4527292?v=4&s=40)](https://github.com/keindev) [![@github-actions[bot]](https://avatars.githubusercontent.com/in/15368?v=4&s=40)](https://github.com/github-actions%5Bbot%5D)
+[![@keindev](https://avatars.githubusercontent.com/u/4527292?v=4&s=40)](https://github.com/keindev)
